@@ -32,18 +32,19 @@ public class TestExample {
 	        driver.get("https://nid.naver.com/nidlogin.login");
 	        Thread.sleep(2000);
 	        js.executeScript("document.querySelector('#id').value = 'apzz0928';");
-	        System.out.println("ID 입력");
 	        Thread.sleep(2000);
 	        js.executeScript("document.querySelector('#pw').value = 'qordlf!@34';");
-	        System.out.println("PW 입력");
 	        Thread.sleep(2000);
 	        js.executeScript("document.querySelector('.btn_global').click();");
-	        System.out.println("로그인");
+	        Thread.sleep(2000);
+	        js.executeScript("document.querySelector('#query').value = 'jenkins';");
+	        Thread.sleep(2000);
+	        js.executeScript("document.querySelector('#search_btn').click();");
 	        Thread.sleep(2000);
 	    }
 		
 		@AfterClass
 		public void afterTest() {
-			driver.close();
+			//driver.close();
 		}		
 }	
