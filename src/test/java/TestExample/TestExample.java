@@ -41,7 +41,6 @@ public class TestExample {
 	        Thread.sleep(2000);
 	        js.executeScript("document.querySelector('#search_btn').click();");
 	        Thread.sleep(2000);
-	        Thread.sleep(2000);
 	    }
 		
 		@AfterClass
