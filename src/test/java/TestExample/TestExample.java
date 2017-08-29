@@ -45,6 +45,6 @@ public class TestExample {
 		
 		@AfterClass
 		public void afterTest() {
-			//driver.close();
+			driver.close();
 		}		
 }	
