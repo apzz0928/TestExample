@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18650" started-at="2017-09-06T09:47:26Z" finished-at="2017-09-06T09:47:44Z">
+  <suite name="Suite" duration-ms="16368" started-at="2017-09-07T06:16:36Z" finished-at="2017-09-07T06:16:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18650" started-at="2017-09-06T09:47:26Z" finished-at="2017-09-06T09:47:44Z">
+    <test name="Test" duration-ms="16368" started-at="2017-09-07T06:16:36Z" finished-at="2017-09-07T06:16:52Z">
       <class name="TestExample.TestExample">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestExample.TestExample@4909b8da]" name="beforeTest" is-config="true" duration-ms="5053" started-at="2017-09-06T18:47:26Z" finished-at="2017-09-06T18:47:31Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestExample.TestExample@4909b8da]" name="beforeTest" is-config="true" duration-ms="5769" started-at="2017-09-07T15:16:36Z" finished-at="2017-09-07T15:16:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:TestExample.TestExample@4909b8da]" name="Login" duration-ms="12639" started-at="2017-09-06T18:47:31Z" finished-at="2017-09-06T18:47:43Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestExample.TestExample@4909b8da]" name="Login" duration-ms="9512" started-at="2017-09-07T15:16:41Z" finished-at="2017-09-07T15:16:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestExample.TestExample@4909b8da]" name="afterTest" is-config="true" duration-ms="952" started-at="2017-09-06T18:47:43Z" finished-at="2017-09-06T18:47:44Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestExample.TestExample@4909b8da]" name="afterTest" is-config="true" duration-ms="1079" started-at="2017-09-07T15:16:51Z" finished-at="2017-09-07T15:16:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
