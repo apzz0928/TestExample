@@ -34,6 +34,7 @@ public class CopyOfTestExample {
 	@Test
 	public void Login() throws InterruptedException{
         open(baseUrl);
+        Thread.sleep(1000);
         $(By.linkText("ID ·Î±×ÀÎ")).click();
         $("#txtNexonID").setValue("apzz0928@gmail.com");
         $("#txtPWD").setValue("qordlf!@34");
