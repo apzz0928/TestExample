@@ -3,7 +3,6 @@ package TestExample;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
